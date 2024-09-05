@@ -17,22 +17,22 @@ You can view the source file [here](https://github.com/iaseth/pedal/blob/master/
 
 | | Effect | Shortcut | Arguments |
 | ---- | ---- | ---- | ---- |
-|  1 | `Chorus`          | `ch`  | None |
-|  2 | `Clipping`        | `cl`  | None |
-|  3 | `Compressor`      | `cp`  | None |
-|  4 | `Delay`           | `d`   | None |
-|  5 | `Distortion`      | `di`  | None |
-|  6 | `Gain`            | `g`   | None |
-|  7 | `HighpassFilter`  | `hpf` | None |
-|  8 | `HighShelfFilter` | `hsf` | None |
-|  9 | `LadderFilter`    | `lf`  | None |
-| 10 | `Limiter`         | `l`   | None |
-| 11 | `LowpassFilter`   | `lpf` | None |
-| 12 | `LowShelfFilter`  | `lsf` | None |
-| 13 | `NoiseGate`       | `ng`  | None |
-| 14 | `Phaser`          | `p`   | None |
-| 15 | `PitchShift`      | `ps`  | None |
-| 16 | `Reverb`          | `r`   | None |
+|  1 | `Chorus`          | `ch`  | `None` |
+|  2 | `Clipping`        | `cl`  | `threshold_db` |
+|  3 | `Compressor`      | `cp`  | `threshold_db`<br>`ratio` |
+|  4 | `Delay`           | `d`   | `delay_seconds`<br>`feedback`<br>`mix` |
+|  5 | `Distortion`      | `di`  | `drive_db` |
+|  6 | `Gain`            | `g`   | `gain_db` |
+|  7 | `HighpassFilter`  | `hpf` | `cutoff_frequency_hz` |
+|  8 | `HighShelfFilter` | `hsf` | `cutoff_frequency_hz`<br>`gain_db`<br>`q` |
+|  9 | `LadderFilter`    | `lf`  | `cutoff_hz` |
+| 10 | `Limiter`         | `l`   | `threshold_db`<br>`release_ms` |
+| 11 | `LowpassFilter`   | `lpf` | `cutoff_frequency_hz` |
+| 12 | `LowShelfFilter`  | `lsf` | `cutoff_frequency_hz`<br>`gain_db`<br>`q` |
+| 13 | `NoiseGate`       | `ng`  | `threshold_db`<br>`ratio`<br>`attack_ms`<br>`release_ms` |
+| 14 | `Phaser`          | `p`   | `None` |
+| 15 | `PitchShift`      | `ps`  | `semitones` |
+| 16 | `Reverb`          | `r`   | `room_size`<br>`damping` |
 
 
 ## License
