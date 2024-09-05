@@ -1,0 +1,23 @@
+
+# Pedal
+
+`Pedal` is a command-line utility built on top of the [Awesome Pedalboard Library](https://github.com/spotify/pedalboard). 
+I use it to apply Pedalboard Effects on Audio without having to write a new `Python` script every time.
+
+I am using {{ gh.link("iaseth/readmix", "readmix") }} for generating this README.
+You can view the source file [here](https://github.com/iaseth/pedal/blob/master/README.md.rx).
+
+
+## Usage
+
+=> python3 pedal.py input.mp3 output.mp3 Chorus=
+
+
+## Supported Effects
+
+
+## License
+{{ "LICENSE.md" | File }}
+
+
+{{ giveCredit() }}
