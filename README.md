@@ -17,6 +17,25 @@ python3 pedal.py input.mp3 output.mp3 Chorus=
 
 ## Supported Effects
 
+| | Effect | Shortcut | Arguments |
+| ---- | ---- | ---- | ---- |
+|  1 | `Chorus`          | `ch`  | None |
+|  2 | `Clipping`        | `cl`  | None |
+|  3 | `Compressor`      | `cp`  | None |
+|  4 | `Delay`           | `d`   | None |
+|  5 | `Distortion`      | `di`  | None |
+|  6 | `Gain`            | `g`   | None |
+|  7 | `HighpassFilter`  | `hpf` | None |
+|  8 | `HighShelfFilter` | `hsf` | None |
+|  9 | `LadderFilter`    | `lf`  | None |
+| 10 | `Limiter`         | `l`   | None |
+| 11 | `LowpassFilter`   | `lpf` | None |
+| 12 | `LowShelfFilter`  | `lsf` | None |
+| 13 | `NoiseGate`       | `ng`  | None |
+| 14 | `Phaser`          | `p`   | None |
+| 15 | `PitchShift`      | `ps`  | None |
+| 16 | `Reverb`          | `r`   | None |
+
 
 ## License
 MIT License
